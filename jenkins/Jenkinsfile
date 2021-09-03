@@ -49,8 +49,8 @@ pipeline {
                                 pom: 'pom.xml',
                                 //goals: '-B -DskipTests clean package',
                                 goals: 'clean compile install -DskipTests',
-                                deployerId: "MAVEN_DEPLOYER",
-                                resolverId: "MAVEN_RESOLVER"
+                                //deployerId: "MAVEN_DEPLOYER",
+                                //resolverId: "MAVEN_RESOLVER"
                         )
                     }
                 }
