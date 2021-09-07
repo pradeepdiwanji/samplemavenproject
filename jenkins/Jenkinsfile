@@ -63,7 +63,7 @@ pipeline {
 			    failBuild: false
             )
             }
-        
+        }
 
 
         stage ('Publish build info') {
