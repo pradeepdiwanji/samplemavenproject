@@ -53,11 +53,11 @@ pipeline {
          
          steps{
          
-         rtServer (
+           /*rtServer (
 			    id: 'JfrogArtifactory',
 			    url: 'http://34.71.215.160:8082/artifactory',
 			    credentialsId: 'admin_pradeep_artifactory'
-            )
+            )*/
          
          xrayScan (
 		    serverId: 'JfrogArtifactory',
@@ -65,9 +65,9 @@ pipeline {
 		   // buildName: 'my-build-name',
 		    //buildNumber: '17',
 		    // Optional - Only if this build is associated with a project in Artifactory, set the project key as follows.
-		    //project: 'my-project-key',   
+		    // project: 'rfact',   
 		    // If the build is found vulnerable, the job will fail by default. If you do not wish it to fail:
-		    failBuild: false
+		    //failBuild: false
 )
          }
         }
