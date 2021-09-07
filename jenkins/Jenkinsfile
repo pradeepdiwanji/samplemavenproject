@@ -59,7 +59,7 @@ pipeline {
 			    credentialsId: 'admin_pradeep_artifactory'
             )*/
          
-         /*xrayScan (
+         xrayScan (
 		    serverId: 'JfrogArtifactory',
 		    // If the build name and build number are not set here, the current job name and number will be used:
 		   // buildName: 'my-build-name',
@@ -69,7 +69,7 @@ pipeline {
 		    // If the build is found vulnerable, the job will fail by default. If you do not wish it to fail:
 		    //failBuild: false
 )
-         }*/
+         )
         }
         
 
