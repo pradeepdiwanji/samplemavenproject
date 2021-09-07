@@ -53,6 +53,12 @@ pipeline {
          
          steps{
          
+         rtServer (
+			    id: 'JfrogArtifactory',
+			    url: 'http://34.71.215.160:8082/artifactory',
+			    credentialsId: 'admin_pradeep_artifactory'
+            )
+         
          xrayScan (
 		    serverId: 'JfrogArtifactory',
 		    // If the build name and build number are not set here, the current job name and number will be used:
