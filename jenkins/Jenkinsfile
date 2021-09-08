@@ -61,9 +61,9 @@ pipeline {
             steps {
                 xrayScan (
                     serverId: 'JfrogArtifactory',
-                     buildName: 'ample-jenkins-pipe',
-                     //buildNumber: '17',
-                     //project: 'my-project-key',   
+                    buildName: 'sample-jenkins-pipe',
+                    //buildNumber: '17',
+                    //project: 'my-project-key',   
                     failBuild: false
                 )
             }
