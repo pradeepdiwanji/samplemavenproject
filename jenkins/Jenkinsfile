@@ -55,7 +55,7 @@ pipeline {
                     buildName: 'sample-jenkins-pipe',
                     //buildNumber: '17',
                    // project: 'rfact',   
-                    failBuild: false,
+                    failBuild: false
                     //publish: true
                 )
             }
