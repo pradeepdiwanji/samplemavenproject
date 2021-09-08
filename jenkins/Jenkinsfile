@@ -63,9 +63,9 @@ pipeline {
                     serverId: 'JfrogArtifactory',
                     buildName: 'sample-jenkins-pipe',
                     //buildNumber: '17',
-                    //project: 'my-project-key',   
+                    project: 'rfact',   
                     failBuild: false,
-                    publish: true
+                    //publish: true
                 )
             }
             }
