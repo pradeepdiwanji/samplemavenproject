@@ -64,8 +64,8 @@ pipeline {
                     buildName: 'sample-jenkins-pipe',
                     //buildNumber: '17',
                     //project: 'my-project-key',   
-                    failBuild: false
-                    publish: true;
+                    failBuild: false,
+                    publish: true
                 )
             }
             }
